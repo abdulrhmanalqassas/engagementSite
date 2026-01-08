@@ -11,7 +11,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "strict": false,
-    "types": ["node", "vite/client"],
+    "types": ["node", "vite/client", "vitest/globals", "@testing-library/jest-dom"],
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src", "vite.config.ts"],
