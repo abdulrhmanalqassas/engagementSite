@@ -16,7 +16,7 @@ export default memo(function Hero({ invite, dateText, language, isRTL, timeUntil
     <section id="home" className="container mx-auto px-4 py-16 text-center">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <img src={imageSrc} alt="Couple" className="w-full max-w-2xl mx-auto rounded-lg shadow-lg" />
+          <img src={imageSrc} alt="Couple" className="w-full max-h-[55vh] max-w-2xl mx-auto rounded-lg shadow-lg" />
         </div>
         <div className="space-y-4">
           <p className="text-xl md:text-2xl italic text-stone-600">{invite}</p>

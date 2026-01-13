@@ -3,12 +3,12 @@ import React, { memo } from 'react'
 export default memo(function DividerButterflyGarden() {
   return (
     <div className="flex justify-center items-center py-12 gap-6">
-      <svg width="70" height="70" viewBox="0 0 100 100" className="animate-pulse">
-        <ellipse cx="30" cy="35" rx="18" ry="22" fill="#F97316" opacity="0.75" transform="rotate(-25 30 35)"/>
-        <ellipse cx="30" cy="35" rx="13" ry="17" fill="#FB923C" opacity="0.85" transform="rotate(-25 30 35)"/>
+      <svg width="70" height="70" viewBox="0 0 100 100" className="anim-bob">
+        <ellipse className="anim-flutter" cx="30" cy="35" rx="18" ry="22" fill="#F97316" opacity="0.75" transform="rotate(-25 30 35)"/>
+        <ellipse className="anim-flutter" cx="30" cy="35" rx="13" ry="17" fill="#FB923C" opacity="0.85" transform="rotate(-25 30 35)"/>
         <circle cx="28" cy="30" r="3" fill="white" opacity="0.9"/>
-        <ellipse cx="70" cy="35" rx="18" ry="22" fill="#F97316" opacity="0.75" transform="rotate(25 70 35)"/>
-        <ellipse cx="70" cy="35" rx="13" ry="17" fill="#FB923C" opacity="0.85" transform="rotate(25 70 35)"/>
+        <ellipse className="anim-flutter" cx="70" cy="35" rx="18" ry="22" fill="#F97316" opacity="0.75" transform="rotate(25 70 35)"/>
+        <ellipse className="anim-flutter" cx="70" cy="35" rx="13" ry="17" fill="#F97316" opacity="0.85" transform="rotate(25 70 35)"/>
         <circle cx="72" cy="30" r="3" fill="white" opacity="0.9"/>
         <ellipse cx="35" cy="55" rx="13" ry="18" fill="#FBBF24" opacity="0.75" transform="rotate(-18 35 55)"/>
         <ellipse cx="65" cy="55" rx="13" ry="18" fill="#FBBF24" opacity="0.75" transform="rotate(18 65 55)"/>
@@ -20,7 +20,7 @@ export default memo(function DividerButterflyGarden() {
         <circle cx="55" cy="22" r="1.5" fill="#78350f"/>
       </svg>
       <div className="flex flex-col gap-3">
-        <svg width="50" height="50" viewBox="0 0 50 50">
+        <svg width="50" height="50" viewBox="0 0 50 50" className="anim-bloom">
           <g transform="translate(25, 25)">
             <ellipse cx="0" cy="0" rx="10" ry="8" fill="#EC4899" opacity="0.8" transform="rotate(0)"/>
             <ellipse cx="0" cy="0" rx="10" ry="8" fill="#EC4899" opacity="0.8" transform="rotate(72)"/>
@@ -30,7 +30,7 @@ export default memo(function DividerButterflyGarden() {
             <circle cx="0" cy="0" r="4" fill="#FBBF24"/>
           </g>
         </svg>
-        <svg width="50" height="50" viewBox="0 0 50 50">
+        <svg width="50" height="50" viewBox="0 0 50 50" className="anim-bloom">
           <g transform="translate(25, 25)">
             <ellipse cx="0" cy="0" rx="9" ry="7" fill="#8B5CF6" opacity="0.8" transform="rotate(0)"/>
             <ellipse cx="0" cy="0" rx="9" ry="7" fill="#8B5CF6" opacity="0.8" transform="rotate(72)"/>
@@ -41,13 +41,13 @@ export default memo(function DividerButterflyGarden() {
           </g>
         </svg>
       </div>
-      <svg width="70" height="70" viewBox="0 0 100 100" className="animate-pulse" style={{animationDelay: '1s'}}>
-        <ellipse cx="30" cy="35" rx="18" ry="22" fill="#10B981" opacity="0.75" transform="rotate(-25 30 35)"/>
-        <ellipse cx="30" cy="35" rx="13" ry="17" fill="#34D399" opacity="0.85" transform="rotate(-25 30 35)"/>
+      <svg width="70" height="70" viewBox="0 0 100 100" className="anim-bob" style={{animationDelay: '1s'}}>
+        <ellipse className="anim-flutter" cx="30" cy="35" rx="18" ry="22" fill="#10B981" opacity="0.75" transform="rotate(-25 30 35)"/>
+        <ellipse className="anim-flutter" cx="30" cy="35" rx="13" ry="17" fill="#34D399" opacity="0.85" transform="rotate(-25 30 35)"/>
         <circle cx="28" cy="30" r="3" fill="white" opacity="0.9"/>
         <circle cx="32" cy="37" r="2" fill="white" opacity="0.8"/>
-        <ellipse cx="70" cy="35" rx="18" ry="22" fill="#10B981" opacity="0.75" transform="rotate(25 70 35)"/>
-        <ellipse cx="70" cy="35" rx="13" ry="17" fill="#34D399" opacity="0.85" transform="rotate(25 70 35)"/>
+        <ellipse className="anim-flutter" cx="70" cy="35" rx="18" ry="22" fill="#10B981" opacity="0.75" transform="rotate(25 70 35)"/>
+        <ellipse className="anim-flutter" cx="70" cy="35" rx="13" ry="17" fill="#34D399" opacity="0.85" transform="rotate(25 70 35)"/>
         <circle cx="72" cy="30" r="3" fill="white" opacity="0.9"/>
         <circle cx="68" cy="37" r="2" fill="white" opacity="0.8"/>
         <ellipse cx="35" cy="55" rx="13" ry="18" fill="#14B8A6" opacity="0.75" transform="rotate(-18 35 55)"/>

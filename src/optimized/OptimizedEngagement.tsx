@@ -51,6 +51,25 @@ export default function OptimizedEngagement() {
     <div className={`min-h-screen bg-stone-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'} style={{ fontFamily: isRTL ? "'Scheherazade New', 'Amiri', serif" : "'Playfair Display', 'Cinzel', serif" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&family=Amiri:wght@400;700&family=Playfair+Display:wght@400;600;700;900&family=Cinzel:wght@400;600;700&display=swap');
+        .anim-sway { transform-origin: center; transform-box: fill-box; animation: sway 6s ease-in-out infinite; }
+        @keyframes sway { 0% { transform: rotate(0deg) } 50% { transform: rotate(2deg) } 100% { transform: rotate(0deg) } }
+        .anim-bloom { transform-origin: 50% 50%; transform-box: fill-box; animation: bloom 2.8s ease-in-out infinite alternate; will-change: transform; }
+        @keyframes bloom { 0% { transform: scale(1) } 50% { transform: scale(1.12) rotate(1.5deg) } 100% { transform: scale(1) } }
+        .anim-bob { transform-origin: center; transform-box: fill-box; animation: bob 3s ease-in-out infinite; }
+        @keyframes bob { 0% { transform: translateY(0) } 50% { transform: translateY(-3px) } 100% { transform: translateY(0) } }
+        .anim-flutter { transform-origin: center; transform-box: fill-box; animation: flutter 2s ease-in-out infinite; }
+        @keyframes flutter { 0% { transform: rotate(0deg) scale(1) } 50% { transform: rotate(4deg) scale(1.03) } 100% { transform: rotate(0deg) scale(1) } }
+        .anim-heartbeat { transform-origin: 50% 50%; transform-box: fill-box; animation: heartbeat 1.2s ease-in-out infinite; }
+        @keyframes heartbeat {
+          0% { transform: scale(1) }
+          10% { transform: scale(1.06) }
+          20% { transform: scale(1) }
+          30% { transform: scale(1.06) }
+          40% { transform: scale(1) }
+          100% { transform: scale(1) }
+        }
+        .anim-heart-fill { animation: heartFill 2.4s ease-in-out infinite; }
+        @keyframes heartFill { 0% { fill-opacity: 0 } 50% { fill-opacity: 0.35 } 100% { fill-opacity: 0 } }
         .vintage-timer {
           background: linear-gradient(145deg, #f5f5dc 0%, #e8dcc0 100%);
           border: 3px solid #8b7355;
