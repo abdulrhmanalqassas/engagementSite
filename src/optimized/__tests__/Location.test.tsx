@@ -26,7 +26,7 @@ describe('Location', () => {
   const details: DetailsContent = {
     title: 'EVENT DETAILS',
     eventTitle: 'ENGAGEMENT CELEBRATION',
-    date: 'Thursday, January 16, 2026',
+    date: 'Friday, January 16, 2026',
     time: '4:00 PM - 8:00 PM',
     venue: 'Home',
     address1: 'Taqsim 4, Qism Kafr El-Shaikh',

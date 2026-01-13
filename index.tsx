@@ -98,7 +98,7 @@ const EngagementWebsite = () => {
       details: {
         title: "EVENT DETAILS",
         eventTitle: "ENGAGEMENT CELEBRATION",
-        date: "Thursday, January 16, 2026",
+        date: "Friday, January 16, 2026",
         time: "4:00 PM - 8:00 PM",
         venue: "Seaside Garden Venue",
         address1: "123 Ocean View Drive",
@@ -179,7 +179,7 @@ const EngagementWebsite = () => {
       details: {
         title: "تفاصيل الحفل",
         eventTitle: "احتفال الخطوبة",
-        date: "الخميس، ١٦ يناير ٢٠٢٦",
+        date: "الجمعة , ١٦ يناير ٢٠٢٦",
         time: "٤:٠٠ مساءً - ٨:٠٠ مساءً",
         venue: "حديقة البحر",
         address1: "١٢٣ طريق إطلالة المحيط",

@@ -23,7 +23,7 @@ And from that day on, we became each other. 🤍🤍🤍🤍🤍🤍`
     details: {
       title: 'EVENT DETAILS',
       eventTitle: 'ENGAGEMENT CELEBRATION',
-      date: 'Thursday, January 16, 2026',
+      date: 'Friday, January 16, 2026',
       time: '6:00 PM - 10:00 PM',
       venue: 'Home',
       address1: 'Taqsim 4, Qism Kafr El-Shaikh',
@@ -89,7 +89,7 @@ And from that day on, we became each other. 🤍🤍🤍🤍🤍🤍`
     details: {
       title: 'تفاصيل الحفل',
       eventTitle: 'احتفال الخطوبة',
-      date: 'الخميس، ١٦ يناير ٢٠٢٦',
+      date: 'الجمعة، ١٦ يناير ٢٠٢٦',
       time: '٦:٠٠ مساءً - ١٠:٠٠ مساءً',
       venue: 'المنزل',
       address1: 'تقسيم ٤، قسم كفر الشيخ',
