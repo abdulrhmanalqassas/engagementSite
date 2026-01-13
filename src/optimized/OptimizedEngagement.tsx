@@ -29,7 +29,7 @@ export default function OptimizedEngagement() {
     return lang === 'ar' ? 'ar' : 'en'
   })
   const isRTL = language === 'ar'
-  const weddingDate = useMemo(() => new Date('2026-01-16T16:00:00'), [])
+  const weddingDate = useMemo(() => new Date('2026-01-16T18:00:00'), [])
   const { timeUntil } = useCountdown(weddingDate)
   const galleryImages = useMemo(() => [he, she, we, weKids], [])
   const t = useMemo(() => (content as ContentMap)[language], [language])

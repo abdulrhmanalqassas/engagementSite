@@ -7,23 +7,33 @@ export const content: ContentMap = {
     hero: { invite: "You're invited to celebrate our engagement!", date: 'JANUARY 16, 2026' },
     story: {
       title: 'OUR STORY',
-      text:
-        'Our journey began with a chance meeting and quickly grew into something special, filled with laughter, adventures and unforgettable memories. As we prepare to say "I do," we\'re excited to celebrate this next chapter with our loved ones and look forward to the future ahead.'
+      text: `Our journey began with a chance meeting and quickly grew into something special, filled with laughter, adventures and unforgettable memories. As we prepare to say "I do," we're excited to celebrate this next chapter with our loved ones and look forward to the future ahead.
+
+to pray for something you never knew could exist, and then find it,
+to see no one but them, to pray for no one but them alone,
+to refuse everyone else and accept no one but them.
+
+You are a prayer God answered for me,
+a dream I spent my whole life dreaming of,
+until destiny chose to make that dream come true
+and bring us together on the 7th of August, 2025.
+
+And from that day on, we became each other. 🤍🤍🤍🤍🤍🤍`
     },
     details: {
       title: 'EVENT DETAILS',
       eventTitle: 'ENGAGEMENT CELEBRATION',
       date: 'Thursday, January 16, 2026',
-      time: '4:00 PM - 8:00 PM',
-      venue: 'Seaside Garden Venue',
-      address1: '123 Ocean View Drive',
-      address2: 'Coastal City, ST 12345',
+      time: '6:00 PM - 10:00 PM',
+      venue: 'Home',
+      address1: 'Taqsim 4, Qism Kafr El-Shaikh',
+      address2: 'Kafr Al Sheikh First, Kafr El-Sheikh Governorate',
       dressCode: 'Dress Code',
       attire: 'Cocktail Attire'
     },
     location: {
       title: 'LOCATION',
-      venue: 'Seaside Garden Venue',
+      venue: 'Home',
       gettingThere: 'Getting There',
       byCar: 'By Car:',
       carInfo: 'Free parking available on-site. Use the main entrance off Ocean View Drive.',
@@ -34,10 +44,8 @@ export const content: ContentMap = {
       openMaps: 'OPEN IN MAPS',
       accommodations: 'NEARBY ACCOMMODATIONS',
       hotels: [
-        { name: 'Coastal Grand Hotel', distance: '0.5 miles from venue', description: 'Luxury oceanfront accommodations with spa and dining.', phone: '(555) 555-1234' },
-        { name: 'Harbor Inn & Suites', distance: '1.2 miles from venue', description: 'Comfortable rooms with complimentary breakfast and pool.', phone: '(555) 555-5678' },
-        { name: 'Seaside Boutique Hotel', distance: '0.8 miles from venue', description: 'Charming boutique property with garden views.', phone: '(555) 555-9012' },
-        { name: 'The Maritime Resort', distance: '2.0 miles from venue', description: 'Full-service resort with beach access and activities.', phone: '(555) 555-3456' }
+        { name: 'Nearby Hotel', distance: 'Near home location', description: 'See on Google Maps: maps.app.goo.gl/hPLibpYVaLDyGp6u8', phone: 'N/A' },
+        { name: 'The Palm Hotel', distance: '4-star hotel', description: 'See on Google Maps: maps.app.goo.gl/8MzVH4eEPjYYEggk8', phone: 'N/A' }
       ]
     },
     rsvp: {
@@ -63,23 +71,35 @@ export const content: ContentMap = {
     hero: { invite: 'أنتم مدعوون للاحتفال بخطوبتنا!', date: '١٦ يناير ٢٠٢٦' },
     story: {
       title: 'قصتنا',
-      text:
-        'بدأت رحلتنا بلقاء مصادفة ونمت بسرعة إلى شيء مميز، مليء بالضحك والمغامرات والذكريات التي لا تُنسى. بينما نستعد لقول "نعم"، نحن متحمسون للاحتفال بهذا الفصل الجديد مع أحبائنا ونتطلع إلى المستقبل.'
+      text: `بدأت رحلتنا بلقاءٍ عابر، وسرعان ما تحوّلت إلى شيءٍ مميّز، مليء بالضحكات والمغامرات والذكريات التي لا تُنسى.
+ومع استعدادنا لنقول "نعم"، يسعدنا أن نحتفل بهذا الفصل الجديد مع أحبّتنا، ونتطلّع إلى المستقبل بكل حب وأمل.
+
+أن تدعو الله بشيءٍ لم تكن تعلم أصلًا أنه يمكن أن يوجد، ثم تجده،
+أن ترى العالم كله في شخصٍ واحد،
+وأن لا تدعو إلا له وحده،
+وأن ترفض الجميع ولا تقبل إلا به.
+
+أنت دعوة استجابها الله لي،
+وحلمًا قضيت عمري كلّه أحلم به،
+حتى اختار القدر أن يجعله حقيقة،
+وجمعنا معًا في السابع من أغسطس 2025.
+
+ومنذ ذلك اليوم، أصبحنا لبعضنا البعض. 🤍🤍🤍🤍🤍🤍`
     },
     details: {
       title: 'تفاصيل الحفل',
       eventTitle: 'احتفال الخطوبة',
       date: 'الخميس، ١٦ يناير ٢٠٢٦',
-      time: '٤:٠٠ مساءً - ٨:٠٠ مساءً',
-      venue: 'حديقة البحر',
-      address1: '١٢٣ طريق إطلالة المحيط',
-      address2: 'المدينة الساحلية، ١٢٣٤٥',
+      time: '٦:٠٠ مساءً - ١٠:٠٠ مساءً',
+      venue: 'المنزل',
+      address1: 'تقسيم ٤، قسم كفر الشيخ',
+      address2: 'كفر الشيخ أول، محافظة كفر الشيخ',
       dressCode: 'قواعد اللباس',
       attire: 'ملابس كوكتيل رسمية'
     },
     location: {
       title: 'الموقع',
-      venue: 'حديقة البحر',
+      venue: 'المنزل',
       gettingThere: 'كيفية الوصول',
       byCar: 'بالسيارة:',
       carInfo: 'موقف سيارات مجاني متاح في الموقع. استخدم المدخل الرئيسي من طريق إطلالة المحيط.',
@@ -90,10 +110,8 @@ export const content: ContentMap = {
       openMaps: 'فتح في الخرائط',
       accommodations: 'أماكن الإقامة القريبة',
       hotels: [
-        { name: 'فندق كوستال الكبير', distance: '٠.٥ ميل من المكان', description: 'إقامة فاخرة على واجهة المحيط مع سبا ومطاعم.', phone: '(555) 555-1234' },
-        { name: 'هاربور إن آند سويتس', distance: '١.٢ ميل من المكان', description: 'غرف مريحة مع إفطار مجاني ومسبح.', phone: '(555) 555-5678' },
-        { name: 'فندق سيسايد البوتيكي', distance: '٠.٨ ميل من المكان', description: 'فندق بوتيك ساحر مع إطلالات على الحديقة.', phone: '(555) 555-9012' },
-        { name: 'منتجع ذا ماريتايم', distance: '٢.٠ ميل من المكان', description: 'منتجع متكامل الخدمات مع شاطئ وأنشطة.', phone: '(555) 555-3456' }
+        { name: 'فندق قريب', distance: 'بالقرب من المنزل', description: 'عرض على خرائط Google: maps.app.goo.gl/hPLibpYVaLDyGp6u8', phone: 'N/A' },
+        { name: 'فندق ذا بالم', distance: 'فندق ٤ نجوم', description: 'عرض على خرائط Google: maps.app.goo.gl/8MzVH4eEPjYYEggk8', phone: 'N/A' }
       ]
     },
     rsvp: {

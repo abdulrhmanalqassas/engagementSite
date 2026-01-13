@@ -29,4 +29,9 @@ describe('OptimizedEngagement', () => {
     expect(hasOurStory).toBe(true)
     expect(hasDetails).toBe(true)
   })
+  
+  it('shows updated event time text', () => {
+    render(<OptimizedEngagement />)
+    expect(screen.getByText(/6:00 PM - 10:00 PM/)).toBeInTheDocument()
+  })
 })

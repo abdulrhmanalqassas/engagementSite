@@ -3,6 +3,7 @@ import React, { memo } from 'react'
 export default memo(function DividerFloralHeart() {
   return (
     <div className="flex justify-center py-12">
+
       <svg width="100" height="100" viewBox="0 0 100 100">
         <g className="anim-heartbeat">
           <path d="M50,85 C50,85 20,65 20,45 C20,35 25,30 32,30 C38,30 44,34 50,40 C56,34 62,30 68,30 C75,30 80,35 80,45 C80,65 50,85 50,85 Z" className="anim-heart-fill" fill="#DC2626" />
