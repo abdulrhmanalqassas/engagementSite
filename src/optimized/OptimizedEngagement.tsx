@@ -14,7 +14,8 @@ import DividerButterflyFlowers from './components/DividerButterflyFlowers'
 import DividerRoseBouquet from './components/DividerRoseBouquet'
 import DividerFloralHeart from './components/DividerFloralHeart'
 import DividerButterflyGarden from './components/DividerButterflyGarden'
-import he from '../../he.jpg'
+import loca from '../../loca.png'
+import he from "../../he.jpg"
 import she from '../../she.jpg'
 import we from '../../we.png'
 import weKids from '../../weKids.jpg'
@@ -130,7 +131,7 @@ export default function OptimizedEngagement() {
         <DividerButterflyFlowers />
         <Story title={t.story.title} text={t.story.text} />
         <DividerRoseBouquet />
-        <Details t={t.details} isRTL={isRTL} bannerSrc={he} />
+        <Details t={t.details} isRTL={isRTL} bannerSrc={loca} />
         <DividerFloralHeart />
         <Location t={t.location} details={t.details} isRTL={isRTL} />
         <DividerButterflyGarden />
